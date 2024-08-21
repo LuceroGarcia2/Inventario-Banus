@@ -1,0 +1,57 @@
+.productos-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.productos-table th,
+.productos-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.productos-table th {
+  background-color: #4CAF50; /* Color de fondo para el encabezado */
+  color: white; /* Color del texto en el encabezado */
+}
+
+.productos-table tr:nth-child(even) {
+  background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+.productos-table tr:hover {
+  background-color: #ddd; /* Color de fondo al pasar el mouse sobre la fila */
+}
+
+/* Estilos para los botones */
+.producto-button {
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 10px 15px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor tipo puntero */
+  transition: background-color 0.3s; /* Transición suave */
+  margin-left: 5px; /* Espaciado entre botones */
+}
+
+.actualizar-button {
+  background-color: #28a745; /* Color de fondo verde para actualizar */
+}
+
+.actualizar-button:hover {
+  background-color: #218838; /* Color de fondo verde al pasar el mouse */
+}
+
+.eliminar-button {
+  background-color: #dc3545; /* Color de fondo rojo para eliminar */
+}
+
+.eliminar-button:hover {
+  background-color: #c82333; /* Color de fondo rojo al pasar el mouse */
+}
+
+.producto-button:disabled {
+  background-color: #c0c0c0; /* Color de fondo deshabilitado */
+  cursor: not-allowed; /* Cursor de no permitido */
+}

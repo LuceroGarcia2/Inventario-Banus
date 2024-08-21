@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo de la página */
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+.login-container {
+    background-color: #ffff00; /* Fondo amarillo */
+    padding: 40px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center; /* Centra el texto dentro de la caja */
+    width: 300px; /* Ancho fijo */
+}
+
+.login-logo img {
+    width: 100px; /* Ancho del logo */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.login-logo h1 {
+    font-size: 24px; /* Tamaño del texto del título */
+    color: #333; /* Color del texto */
+    margin: 10px 0 20px; /* Margen superior e inferior */
+}
+
+.login-form input {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin: 10px 0; /* Margen vertical */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.login-form button {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    background-color: #ff0000; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+    font-size: 16px; /* Tamaño de la fuente */
+}
+
+.login-form button:hover {
+    background-color: #cc0000; /* Color del botón al pasar el mouse */
+}
+
+.login-logo img {
+    width: 25px; /* Ancho del logo (ajustado a 70px) */
+    height: 25px; /* Altura automática para mantener la proporción */
+}

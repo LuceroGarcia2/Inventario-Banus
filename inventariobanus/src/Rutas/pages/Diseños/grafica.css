@@ -1,0 +1,32 @@
+/* Estilo general para el contenedor de la gráfica */
+.chart-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto; /* Centrar la gráfica */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para el título de la gráfica */
+  .chart-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Estilo para el mensaje de carga */
+  .chart-container p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  /* Ajuste adicional de la gráfica */
+  .canvas-container {
+    position: relative;
+    height: 400px; /* Altura fija para la gráfica */
+  }
+  
